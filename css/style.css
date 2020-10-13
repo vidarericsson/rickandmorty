@@ -1,0 +1,112 @@
+body {
+  background-image: url("../img/bakgrund.jpg");
+}
+h1 {
+  font-size: 80px;
+  font-family:fantasy;
+  color: rgb(23, 231, 231);
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+
+}
+p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.rubriker {
+  color: white;
+  font-size: 35px;
+  margin-left: 300px;
+}
+img {
+  width: 250px;
+  padding-left: 25px;
+  padding-right: 25px;
+  float: right;
+}
+#bild {
+  float:left;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 160px;
+}
+.bilder {
+  margin-right: 230px;
+  width: 250px;
+}
+#summer {
+  margin-right: 315px;
+  width: 180px;
+}
+#summerbild {
+  margin-right: 250px;
+  width: 180px
+}
+.familj {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 160px;
+  margin-left: 300px;
+}
+.skapare {
+  width: 600px;
+}
+#rickbild {
+  margin-right: 0px;
+}
+/*Länkar till de andra html sidorna*/
+#länkar {
+  list-style-type: none;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: rgb(6, 107, 244);
+  border-style: solid;
+}
+.länkartillandra li {
+  float: left;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 25px;
+  border-right-style: solid;
+}
+.länkartillandra li a {
+  display: block;
+  color: white;
+  background-color: rgb(6, 107, 244);
+  text-align: center;
+  padding: 10px 62.299px;
+  text-decoration: none;
+}
+#ensam {
+  border-right-style: hidden;
+}
+.länkartillandra a:hover {
+  display: block;
+  color: black;
+  background-color: rgb(6, 107, 244);
+  text-align: center;
+  padding: 10px 62.299px;
+  text-decoration: none;
+}
+/*Länkar till beskrivningarna av karaktärerna*/
+#länkarpåsidan {
+  list-style-type: none;
+}
+.länkarpåsidan li {
+  margin-left: 265px;
+  padding-bottom: 10px;
+}
+.länkarpåsidan li a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.länkarpåsidan a:hover {
+  font-size: 20px;
+}
